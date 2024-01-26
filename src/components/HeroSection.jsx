@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
@@ -15,8 +15,8 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                 "Emmanuel",
-                1000, 
+                "Emmanuel",
+                1000,
                 "Web Developer",
                 1000,
                 "Mobile Developer",
@@ -28,13 +28,10 @@ const HeroSection = () => {
               speed={50}
               repeat={Infinity}
             />
-            
           </h1>
           <p className="text-[#ADB7BE] text-base ms:text-lg lg:text-xl">
             Step into the realm of captivating user experiences and seamless
-            interfaces with my frontend developer experience. Here, I blend
-            artistry with technology, crafting digital landscapes that engage,
-            inspire, and transform.
+            interfaces with my frontend developer experience.
           </p>
           <div>
             <button className="w-full sm:w-fit px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
