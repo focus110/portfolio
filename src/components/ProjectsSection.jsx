@@ -35,14 +35,18 @@ const projectsData = [
 const ProjectsSection = () => {
   return (
     <div>
-      <h2>Projects</h2>
-      <div>
+      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-4">
+        Projects
+      </h2>
+      <div className="grid md:grid-cols-3 gap-8 md:gap-12">
         {projectsData.map((project) => (
           <ProjectCard
             key={project.id}
             title={project.title}
             description={project.description}
             imgUrl={project.image}
+            gitUrl={project.gitUrl}
+            previewUrl={project.previewUrl}
           />
         ))}
       </div>
