@@ -8,6 +8,8 @@ const projectsData = [
     description: "Project 1 description",
     image: "/images/projects/1.png",
     tag: ["All", "web"],
+    gitUrl: "/",
+    previewUrl: "/",
   },
   {
     id: 1,
@@ -15,6 +17,8 @@ const projectsData = [
     description: "Project 2 description",
     image: "/images/projects/2.png",
     tag: ["All", "web"],
+    gitUrl: "/",
+    previewUrl: "/",
   },
   ,
   {
@@ -23,10 +27,12 @@ const projectsData = [
     description: "Project 3 description",
     image: "/images/projects/3.png",
     tag: ["All", "web"],
+    gitUrl: "/",
+    previewUrl: "/",
   },
 ];
 
-const ProjectsSection = ({}) => {
+const ProjectsSection = () => {
   return (
     <div>
       <h2>Projects</h2>
