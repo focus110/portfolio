@@ -25,7 +25,7 @@ const EmailSection = () => {
         </div>
       </div>
 
-      <div>
+      <div className="z-10">
         <form className="flex flex-col">
           <div className="mb-6">
             <label
