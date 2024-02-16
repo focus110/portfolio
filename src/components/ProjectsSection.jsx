@@ -28,7 +28,7 @@ const projectsData = [
     title: "E-commerce Application",
     description: "Project 3 description",
     image: "/images/projects/3.png",
-    tag: ["All", "Web","Mobile"],
+    tag: ["All", "Web", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -69,9 +69,9 @@ const ProjectsSection = () => {
         />
       </div>
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-        {filteredProjects.map((project) => (
+        {filteredProjects.map((project, index) => (
           <ProjectCard
-            key={project.id}
+            key={index}
             title={project.title}
             description={project.description}
             imgUrl={project.image}
