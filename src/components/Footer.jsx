@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="footer border border-t-[#33353f] border-l-transparent border-r-transparent border-b-transparent text-white">
+    <footer className="footer border z-10 border-t-[#33353f] border-l-transparent border-r-transparent border-b-transparent text-white">
       <div className="container p-12 flex justify-between">
         <span>
           <Link href="/">LOGO </Link>
