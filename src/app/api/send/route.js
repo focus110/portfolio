@@ -9,7 +9,7 @@ export async function POST(req, res) {
   try {
     const data = await resend.emails.send({
       from: "Portfolio <onboarding@resend.dev>" + email,
-      to: "Focusguy387@gmail.com",
+      to: toEmail,
       subject: subject,
       html: `<body style="background-color:#ffffff; font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif">
       <table align="center" width="100%" border="0" cellPadding="0" cellSpacing="0" role="presentation" style="max-width:37.5em;margin:0 auto;padding:20px 0 48px">
